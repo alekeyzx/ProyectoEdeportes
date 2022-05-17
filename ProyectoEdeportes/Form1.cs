@@ -55,7 +55,7 @@ namespace ProyectoEdeportes
             if(txtContraseña.Text == "")
             {
                 txtContraseña.Text = "CONTRASEÑA";
-                txtContraseña.ForeColor = Color.DimGray;
+                txtContraseña.ForeColor = Color.Black;
                 txtContraseña.UseSystemPasswordChar = false;
             }
         }
@@ -74,7 +74,7 @@ namespace ProyectoEdeportes
             if (txtUsuario.Text=="")
             {
                 txtUsuario.Text = "USUARIO";
-                txtUsuario.ForeColor = Color.DimGray;
+                txtUsuario.ForeColor = Color.Black;
             }
         }
 
