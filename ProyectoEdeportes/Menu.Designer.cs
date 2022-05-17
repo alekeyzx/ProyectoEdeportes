@@ -42,9 +42,9 @@
             this.btnJuegos = new System.Windows.Forms.Button();
             this.btnJugadores = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnUsuario = new System.Windows.Forms.Button();
             this.pnlBarraTitulo = new System.Windows.Forms.Panel();
             this.pnlContenedor = new System.Windows.Forms.Panel();
+            this.lblUsuario = new System.Windows.Forms.Label();
             this.pnlMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlBarraTitulo.SuspendLayout();
@@ -236,12 +236,11 @@
             this.btnUsuario.Text = "Usuario:";
             this.btnUsuario.UseVisualStyleBackColor = true;
             this.btnUsuario.TextChanged += new System.EventHandler(this.btnUsuario_TextChanged);
-            this.btnUsuario.Click += new System.EventHandler(this.btnUsuario_Click);
             // 
             // pnlBarraTitulo
             // 
             this.pnlBarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(28)))), ((int)(((byte)(33)))));
-            this.pnlBarraTitulo.Controls.Add(this.btnUsuario);
+            this.pnlBarraTitulo.Controls.Add(this.lblUsuario);
             this.pnlBarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlBarraTitulo.Location = new System.Drawing.Point(0, 0);
             this.pnlBarraTitulo.Name = "pnlBarraTitulo";
@@ -260,6 +259,16 @@
             this.pnlContenedor.Size = new System.Drawing.Size(1220, 442);
             this.pnlContenedor.TabIndex = 3;
             this.pnlContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContenedor_Paint);
+            // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.ForeColor = System.Drawing.Color.Black;
+            this.lblUsuario.Location = new System.Drawing.Point(849, 6);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(102, 29);
+            this.lblUsuario.TabIndex = 0;
+            this.lblUsuario.Text = "Usuario:";
             // 
             // Menu
             // 
@@ -281,6 +290,7 @@
             this.pnlMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlBarraTitulo.ResumeLayout(false);
+            this.pnlBarraTitulo.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -288,7 +298,6 @@
         #endregion
 
         private System.Windows.Forms.Panel pnlMenu;
-        private System.Windows.Forms.Button btnUsuario;
         private System.Windows.Forms.Panel pnlBarraTitulo;
         private System.Windows.Forms.Button btnUsuarios;
         private System.Windows.Forms.Button btnPatrocinadores;
@@ -304,5 +313,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label lblUsuario;
     }
 }
