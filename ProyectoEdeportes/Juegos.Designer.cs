@@ -122,9 +122,9 @@
             this.label6.Location = new System.Drawing.Point(10, 25);
             this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(115, 16);
+            this.label6.Size = new System.Drawing.Size(137, 16);
             this.label6.TabIndex = 36;
-            this.label6.Text = "Nombre del juego";
+            this.label6.Text = "Nombre del juegoxdd";
             // 
             // txtNombreJuego
             // 
