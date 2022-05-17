@@ -33,12 +33,13 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnCalcularEdad = new System.Windows.Forms.Button();
             this.txtID = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.IndianRed;
-            this.panel4.Location = new System.Drawing.Point(12, 427);
+            this.panel4.Location = new System.Drawing.Point(12, 389);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1196, 5);
             this.panel4.TabIndex = 17;
@@ -49,7 +50,7 @@
             this.btnCalcularBono.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(28)))), ((int)(((byte)(33)))));
             this.btnCalcularBono.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCalcularBono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.btnCalcularBono.Location = new System.Drawing.Point(12, 301);
+            this.btnCalcularBono.Location = new System.Drawing.Point(12, 263);
             this.btnCalcularBono.Name = "btnCalcularBono";
             this.btnCalcularBono.Size = new System.Drawing.Size(1196, 131);
             this.btnCalcularBono.TabIndex = 16;
@@ -59,7 +60,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.IndianRed;
-            this.panel3.Location = new System.Drawing.Point(12, 290);
+            this.panel3.Location = new System.Drawing.Point(12, 252);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1196, 5);
             this.panel3.TabIndex = 15;
@@ -70,7 +71,7 @@
             this.btnCalcularEdad.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(28)))), ((int)(((byte)(33)))));
             this.btnCalcularEdad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCalcularEdad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.btnCalcularEdad.Location = new System.Drawing.Point(12, 164);
+            this.btnCalcularEdad.Location = new System.Drawing.Point(12, 126);
             this.btnCalcularEdad.Name = "btnCalcularEdad";
             this.btnCalcularEdad.Size = new System.Drawing.Size(1196, 131);
             this.btnCalcularEdad.TabIndex = 14;
@@ -79,7 +80,7 @@
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(12, 123);
+            this.txtID.Location = new System.Drawing.Point(12, 61);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(1196, 35);
             this.txtID.TabIndex = 18;
@@ -87,12 +88,21 @@
             this.txtID.Enter += new System.EventHandler(this.textBox1_Enter);
             this.txtID.Leave += new System.EventHandler(this.txtID_Leave);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.panel1.Location = new System.Drawing.Point(12, 102);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1196, 5);
+            this.panel1.TabIndex = 19;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
             this.ClientSize = new System.Drawing.Size(1220, 442);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.btnCalcularBono);
@@ -115,5 +125,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btnCalcularEdad;
         private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.Panel panel1;
     }
 }
