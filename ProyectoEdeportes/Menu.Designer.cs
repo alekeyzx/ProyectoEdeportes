@@ -43,8 +43,8 @@
             this.btnJugadores = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlBarraTitulo = new System.Windows.Forms.Panel();
-            this.pnlContenedor = new System.Windows.Forms.Panel();
             this.lblUsuario = new System.Windows.Forms.Label();
+            this.pnlContenedor = new System.Windows.Forms.Panel();
             this.pnlMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlBarraTitulo.SuspendLayout();
@@ -222,10 +222,6 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // btnUsuario
-            // 
-          
-            // 
             // pnlBarraTitulo
             // 
             this.pnlBarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(28)))), ((int)(((byte)(33)))));
@@ -238,6 +234,16 @@
             this.pnlBarraTitulo.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBarraTitulo_Paint);
             this.pnlBarraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraTitulo_MouseDown);
             // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.ForeColor = System.Drawing.Color.Black;
+            this.lblUsuario.Location = new System.Drawing.Point(849, 6);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(102, 29);
+            this.lblUsuario.TabIndex = 0;
+            this.lblUsuario.Text = "Usuario:";
+            // 
             // pnlContenedor
             // 
             this.pnlContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
@@ -248,16 +254,6 @@
             this.pnlContenedor.Size = new System.Drawing.Size(1220, 442);
             this.pnlContenedor.TabIndex = 3;
             this.pnlContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContenedor_Paint);
-            // 
-            // lblUsuario
-            // 
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.ForeColor = System.Drawing.Color.Black;
-            this.lblUsuario.Location = new System.Drawing.Point(849, 6);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(102, 29);
-            this.lblUsuario.TabIndex = 0;
-            this.lblUsuario.Text = "Usuario:";
             // 
             // Menu
             // 
