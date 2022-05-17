@@ -224,18 +224,7 @@
             // 
             // btnUsuario
             // 
-            this.btnUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnUsuario.Enabled = false;
-            this.btnUsuario.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsuario.Location = new System.Drawing.Point(885, 0);
-            this.btnUsuario.Name = "btnUsuario";
-            this.btnUsuario.Size = new System.Drawing.Size(265, 35);
-            this.btnUsuario.TabIndex = 1;
-            this.btnUsuario.Text = "Usuario:";
-            this.btnUsuario.UseVisualStyleBackColor = true;
-            this.btnUsuario.TextChanged += new System.EventHandler(this.btnUsuario_TextChanged);
+          
             // 
             // pnlBarraTitulo
             // 

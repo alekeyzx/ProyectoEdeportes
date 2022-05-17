@@ -27,7 +27,7 @@ namespace ProyectoEdeportes
         private void Menu_Load(object sender, EventArgs e)
         {
             AbrirFormHija(new Inicio());
-            btnUsuario.Text= $"Usuario: {user}";
+            lblUsuario.Text= $"Usuario: {user}";
             
         }
 
