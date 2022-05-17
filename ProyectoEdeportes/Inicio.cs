@@ -16,5 +16,23 @@ namespace ProyectoEdeportes
         {
             InitializeComponent();
         }
+
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+            if (txtID.Text == "ID")
+            {
+                txtID.Text = "";
+                txtID.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtID_Leave(object sender, EventArgs e)
+        {
+            if (txtID.Text == "")
+            {
+                txtID.Text = "ID";
+                txtID.ForeColor = Color.Black;
+            }
+        }
     }
 }

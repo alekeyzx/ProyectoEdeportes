@@ -76,9 +76,9 @@
             this.txtUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.txtUsuario.Location = new System.Drawing.Point(256, 48);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(496, 43);
+            this.txtUsuario.Size = new System.Drawing.Size(496, 35);
             this.txtUsuario.TabIndex = 2;
-            this.txtUsuario.Text = "Usuario";
+            this.txtUsuario.Text = "USUARIO";
             this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
             this.txtUsuario.Leave += new System.EventHandler(this.txtUsuario_Leave);
             // 
@@ -88,9 +88,9 @@
             this.txtContraseña.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.txtContraseña.Location = new System.Drawing.Point(256, 119);
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(496, 43);
+            this.txtContraseña.Size = new System.Drawing.Size(496, 35);
             this.txtContraseña.TabIndex = 4;
-            this.txtContraseña.Text = "Contraseña";
+            this.txtContraseña.Text = "CONTRASEÑA";
             this.txtContraseña.Enter += new System.EventHandler(this.txtContraseña_Enter);
             this.txtContraseña.Leave += new System.EventHandler(this.txtContraseña_Leave);
             // 
@@ -107,7 +107,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(466, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 36);
+            this.label1.Size = new System.Drawing.Size(73, 29);
             this.label1.TabIndex = 5;
             this.label1.Text = "Login";
             // 
@@ -128,7 +128,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 36F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
             this.ClientSize = new System.Drawing.Size(764, 291);
@@ -139,7 +139,7 @@
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Oswald", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
