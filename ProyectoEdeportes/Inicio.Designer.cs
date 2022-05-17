@@ -38,9 +38,9 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.IndianRed;
-            this.panel4.Location = new System.Drawing.Point(12, 450);
+            this.panel4.Location = new System.Drawing.Point(12, 427);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(871, 5);
+            this.panel4.Size = new System.Drawing.Size(1196, 5);
             this.panel4.TabIndex = 17;
             // 
             // btnCalcularBono
@@ -49,9 +49,9 @@
             this.btnCalcularBono.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(28)))), ((int)(((byte)(33)))));
             this.btnCalcularBono.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCalcularBono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.btnCalcularBono.Location = new System.Drawing.Point(12, 324);
+            this.btnCalcularBono.Location = new System.Drawing.Point(12, 301);
             this.btnCalcularBono.Name = "btnCalcularBono";
-            this.btnCalcularBono.Size = new System.Drawing.Size(871, 131);
+            this.btnCalcularBono.Size = new System.Drawing.Size(1196, 131);
             this.btnCalcularBono.TabIndex = 16;
             this.btnCalcularBono.Text = "Calcular bono";
             this.btnCalcularBono.UseVisualStyleBackColor = true;
@@ -59,9 +59,9 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.IndianRed;
-            this.panel3.Location = new System.Drawing.Point(12, 313);
+            this.panel3.Location = new System.Drawing.Point(12, 290);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(871, 5);
+            this.panel3.Size = new System.Drawing.Size(1196, 5);
             this.panel3.TabIndex = 15;
             // 
             // btnCalcularEdad
@@ -70,18 +70,18 @@
             this.btnCalcularEdad.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(28)))), ((int)(((byte)(33)))));
             this.btnCalcularEdad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCalcularEdad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.btnCalcularEdad.Location = new System.Drawing.Point(12, 187);
+            this.btnCalcularEdad.Location = new System.Drawing.Point(12, 164);
             this.btnCalcularEdad.Name = "btnCalcularEdad";
-            this.btnCalcularEdad.Size = new System.Drawing.Size(871, 131);
+            this.btnCalcularEdad.Size = new System.Drawing.Size(1196, 131);
             this.btnCalcularEdad.TabIndex = 14;
             this.btnCalcularEdad.Text = "Calcular edad del jugador";
             this.btnCalcularEdad.UseVisualStyleBackColor = true;
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(12, 146);
+            this.txtID.Location = new System.Drawing.Point(12, 123);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(871, 35);
+            this.txtID.Size = new System.Drawing.Size(1196, 35);
             this.txtID.TabIndex = 18;
             this.txtID.Text = "ID";
             this.txtID.Enter += new System.EventHandler(this.textBox1_Enter);
@@ -92,7 +92,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.ClientSize = new System.Drawing.Size(895, 469);
+            this.ClientSize = new System.Drawing.Size(1220, 442);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.btnCalcularBono);
