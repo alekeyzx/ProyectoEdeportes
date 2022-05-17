@@ -15,10 +15,12 @@ namespace ProyectoEdeportes
 {
     public partial class Juegos : Form
     {
-        List<string> juegos;
-        public Juegos()
+        string connectionString, user;
+        public Juegos(string con,string user)
         {
             InitializeComponent();
+            this.connectionString = con;
+            this.user = user;
         }
 
         private void Juegos_Load(object sender, EventArgs e)
@@ -28,7 +30,7 @@ namespace ProyectoEdeportes
         //Conexion + Query
         public void Insertar()
         {
-            string connectionString = "server = localhost; port= 3306; username = root; password =1234; database = esports_team;";
+            //string connectionString = "server = localhost; port= 3306; username = root; password =1234; database = esports_team;";
 
             string query = "INSERT INTO juegos(`nombre_juego`,`genero`, `num_campeonatos`, `compañia`, `version_actual`, `plataforma`) VALUES ('" + txtNombreJuego.Text + "', '" + txtGenero.Text + "', '" + txtCampeonato.Text + "', '" + txtCompañia.Text + "', '" + txtVersion.Text + "', '" + txtPlataforma.Text + "')";
 
@@ -55,7 +57,7 @@ namespace ProyectoEdeportes
         public void MostrarJuegos()
         {
             dgvJuegos.Rows.Clear();
-            string connectionString = "server = localhost; port= 3306; username = root; password =1234; database = esports_team;";
+            //string connectionString = "server = localhost; port= 3306; username = root; password =1234; database = esports_team;";
             string query = "SELECT* FROM juegos";
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
@@ -113,7 +115,7 @@ namespace ProyectoEdeportes
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string connectionString = "server = localhost; port= 3306; username = root; password =1234; database = esports_team;";
+            //string connectionString = "server = localhost; port= 3306; username = root; password =1234; database = esports_team;";
 
             //AQUI IDENTIFICABA CUAL SELECCIONABA DE LA TABLA
             string juego = dgvJuegos.CurrentRow.Cells[0].Value.ToString();
@@ -144,7 +146,7 @@ namespace ProyectoEdeportes
         //CONEXION + QUERY PARA BUSCAR
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            string connectionString = "server = localhost; port= 3306; username = root; password =1234; database = esports_team;";
+           // string connectionString = "server = localhost; port= 3306; username = root; password =1234; database = esports_team;";
 
             //AQUI VA LA CONSULTA
             string query = "SELECT * FROM juegos";
@@ -184,7 +186,7 @@ namespace ProyectoEdeportes
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            string connectionString = "server = localhost; port= 3306; username = root; password =1234; database = esports_team;";
+            //string connectionString = "server = localhost; port= 3306; username = root; password =1234; database = esports_team;";
 
             //Aqui identifica el seleccionado en la tabla
             string juego = dgvJuegos.CurrentRow.Cells[0].Value.ToString();

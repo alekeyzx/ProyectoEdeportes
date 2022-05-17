@@ -16,17 +16,23 @@ namespace ProyectoEdeportes
 {
     public partial class Menu : Form
     {
-        public Menu()
+        string con, user;
+        public Menu(string con, string user)
         {
             InitializeComponent();
+            this.con = con;
+            this.user = user;
         }
 
         private void Menu_Load(object sender, EventArgs e)
         {
             AbrirFormHija(new Inicio());
+            btnUsuario.Text= $"Usuario: {user}";
+            
         }
 
-       
+
+
         private void pnlBarraTitulo_MouseDown(object sender, MouseEventArgs e)
         {
            
@@ -50,37 +56,37 @@ namespace ProyectoEdeportes
 
         private void btnJugadores_Click(object sender, EventArgs e)
         {
-            AbrirFormHija(new Jugadores());
+            AbrirFormHija(new Jugadores(con,user));
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            AbrirFormHija(new Inicio());
+            AbrirFormHija(new Inicio(con, user));
         }
 
         private void btnEmpleados_Click(object sender, EventArgs e)
         {
-            AbrirFormHija(new Empleados());
+            AbrirFormHija(new Empleados(con, user));
         }
 
         private void btnJuegos_Click(object sender, EventArgs e)
         {
-            AbrirFormHija(new Juegos());
+            AbrirFormHija(new Juegos(con, user));
         }
 
         private void btnContratos_Click(object sender, EventArgs e)
         {
-            AbrirFormHija(new Contrato());
+            AbrirFormHija(new Contrato(con, user));
         }
 
         private void btnPatrocinadores_Click(object sender, EventArgs e)
         {
-            AbrirFormHija(new Patrocinador());
+            AbrirFormHija(new Patrocinador(con, user));
         }
 
         private void btnUsuarios_Click(object sender, EventArgs e)
         {
-            AbrirFormHija(new Historial());
+            AbrirFormHija(new Historial(con, user));
         }
 
         private void pnlContenedor_Paint(object sender, PaintEventArgs e)
@@ -88,9 +94,14 @@ namespace ProyectoEdeportes
 
         }
 
-        private void btnUsuario_TextChanged(object sender, EventArgs e)
+        private void btnUsuario_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnUsuario_TextChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }

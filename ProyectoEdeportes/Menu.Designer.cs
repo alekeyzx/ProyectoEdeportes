@@ -236,6 +236,7 @@
             this.btnUsuario.Text = "Usuario:";
             this.btnUsuario.UseVisualStyleBackColor = true;
             this.btnUsuario.TextChanged += new System.EventHandler(this.btnUsuario_TextChanged);
+            this.btnUsuario.Click += new System.EventHandler(this.btnUsuario_Click);
             // 
             // pnlBarraTitulo
             // 

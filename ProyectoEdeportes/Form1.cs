@@ -15,7 +15,8 @@ namespace ProyectoEdeportes
 {
     public partial class Form1 : Form
     {
-        Conexion unaConexion;
+        
+        string con,  user;
 
         static MySqlCommand commandDatabase;
         static MySqlDataReader myReader;
@@ -25,8 +26,7 @@ namespace ProyectoEdeportes
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            unaConexion = new Conexion();
-            MessageBox.Show(unaConexion.ProbarConexion().ToString());
+            
         }
 
         private void gpbIniciarSesion_Enter(object sender, EventArgs e)
@@ -36,7 +36,7 @@ namespace ProyectoEdeportes
 
         private void btnIniciar_Click(object sender, EventArgs e)
         {
-            Menu menu = new Menu();
+            Menu menu = new Menu(con,user);
             menu.Show();
         }
 
@@ -90,9 +90,10 @@ namespace ProyectoEdeportes
                 conn.Close();
                 txtContraseña.Clear();
                 txtUsuario.Clear();
-                Menu menu = new Menu();
+                Menu menu = new Menu(connectionString,txtUsuario.Text);
                 menu.Show();
                 this.Hide();
+                
             }
             catch (Exception ex)
             {
