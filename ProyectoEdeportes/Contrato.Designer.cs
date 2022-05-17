@@ -130,7 +130,7 @@
             this.txtNombreJuego.Location = new System.Drawing.Point(10, 49);
             this.txtNombreJuego.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txtNombreJuego.Name = "txtNombreJuego";
-            this.txtNombreJuego.Size = new System.Drawing.Size(340, 22);
+            this.txtNombreJuego.Size = new System.Drawing.Size(261, 22);
             this.txtNombreJuego.TabIndex = 35;
             // 
             // textBox13
@@ -157,7 +157,7 @@
             this.txtVersion.Location = new System.Drawing.Point(6, 272);
             this.txtVersion.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txtVersion.Name = "txtVersion";
-            this.txtVersion.Size = new System.Drawing.Size(340, 22);
+            this.txtVersion.Size = new System.Drawing.Size(265, 22);
             this.txtVersion.TabIndex = 24;
             // 
             // label7
@@ -225,7 +225,7 @@
             this.txtPlataforma.Location = new System.Drawing.Point(11, 329);
             this.txtPlataforma.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txtPlataforma.Name = "txtPlataforma";
-            this.txtPlataforma.Size = new System.Drawing.Size(339, 22);
+            this.txtPlataforma.Size = new System.Drawing.Size(260, 22);
             this.txtPlataforma.TabIndex = 10;
             // 
             // label3
@@ -244,7 +244,7 @@
             this.txtCompañia.Location = new System.Drawing.Point(7, 216);
             this.txtCompañia.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txtCompañia.Name = "txtCompañia";
-            this.txtCompañia.Size = new System.Drawing.Size(340, 22);
+            this.txtCompañia.Size = new System.Drawing.Size(264, 22);
             this.txtCompañia.TabIndex = 4;
             // 
             // label2
@@ -263,7 +263,7 @@
             this.txtCampeonato.Location = new System.Drawing.Point(7, 161);
             this.txtCampeonato.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txtCampeonato.Name = "txtCampeonato";
-            this.txtCampeonato.Size = new System.Drawing.Size(339, 22);
+            this.txtCampeonato.Size = new System.Drawing.Size(264, 22);
             this.txtCampeonato.TabIndex = 2;
             // 
             // label1
@@ -282,7 +282,7 @@
             this.txtGenero.Location = new System.Drawing.Point(7, 105);
             this.txtGenero.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txtGenero.Name = "txtGenero";
-            this.txtGenero.Size = new System.Drawing.Size(340, 22);
+            this.txtGenero.Size = new System.Drawing.Size(264, 22);
             this.txtGenero.TabIndex = 0;
             // 
             // panel2
