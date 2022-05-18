@@ -13,7 +13,7 @@ namespace ProyectoEdeportes
         public Conexion()
         {
             
-            const string ConnectionString = "server = localhost; port= 3306; username = root; password =1234; database = esports_team";
+            const string ConnectionString = "server = localhost; port= 3306; username = root; password = Sobrecarga2*; database = esports_team";
             databaseConnection = new MySqlConnection(ConnectionString);
         }
         public bool ProbarConexion() // Metodo para verificar la conexion de la base de datos
